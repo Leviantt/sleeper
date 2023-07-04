@@ -16,4 +16,4 @@ import * as Joi from 'joi';
   providers: [ConfigService],
   exports: [ConfigService],
 })
-export class ConfigModule extends NestConfigModule {}
+export class ConfigModule {}
